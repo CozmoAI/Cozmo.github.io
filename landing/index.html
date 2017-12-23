@@ -183,18 +183,6 @@
     </div>
   </div>
 
-
-  <div class="right-col">
-    <div class="fb-button-box" style="position: relative;">
-      <div class="fb-button-place fb-button-place_rendered" ng-bind-html="bsc.testPageCode" ng-class="{'fb-button-place--hide': bsc.link, 'loaded' : bsc.fbButtonLoadedEmulate}" fb-test-bot-btn-click="" link="bsc.link">
-        <div class='fb-send-to-messenger' id='fb-send-to-messenger' messenger_app_id='1678638095724206' page_id='1977538235809288' data-ref='b64:Q0ZMOg==' color='blue' size='xlarge'></div>
-      </div>
-      <div class="open-in-messenger">
-        <a class="link" href="https://m.me/1977538235809288" target="_blank">view on messenger.com</a>
-      </div>
-    </div>
-    <span class="fb-button-box-descript">Just start a chat in Facebook Messenger</span>
-  </div>
 <script>      window.fbMessengerPlugins = window.fbMessengerPlugins || {        init: function () {          FB.init({            appId            : '1678638095724206',            autoLogAppEvents : true,            xfbml            : true,            version          : 'v2.10'          });        }, callable: []      };      window.fbAsyncInit = window.fbAsyncInit || function () {        window.fbMessengerPlugins.callable.forEach(function (item) { item(); });        window.fbMessengerPlugins.init();      };      setTimeout(function () {        (function (d, s, id) {          var js, fjs = d.getElementsByTagName(s)[0];          if (d.getElementById(id)) { return; }          js = d.createElement(s);          js.id = id;          js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";          fjs.parentNode.insertBefore(js, fjs);        }(document, 'script', 'facebook-jssdk'));      }, 0);      </script>            <div        class="fb-customerchat"        page_id="1977538235809288"        ref="">      </div>    
 </div>
 </body>
