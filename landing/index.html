@@ -1,0 +1,201 @@
+
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="Cozmo Flood chatbot on Facebook Messenger - Chatfuel">
+    <meta name="description" content="Cozmo Flood: flood alert and weather forecast service. With a touch of humor from a weather owl.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozmo Flood chatbot on Facebook Messenger - Chatfuel</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="https://chatfuel.com/images/logo/favicon.ico"/>
+    <link rel="shortcut icon" href="https://chatfuel.com/images/logo/favicon.ico">
+
+    <!-- Your styles -->
+    <link rel="stylesheet" href="https://chatfuel.com/bot_landings/static/styles/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+    <link rel="stylesheet" href="https://chatfuel.com/bot_landings/static/styles/bootstrap.css">
+    <link rel="stylesheet" href="https://chatfuel.com/bot_landings/static/styles/main.css?r=1">
+
+    <!-- OpenGraph -->
+    <meta property="og:title" content="Cozmo Flood chatbot">
+    <meta property="og:description" content="Cozmo Flood: flood alert and weather forecast service. With a touch of humor from a weather owl.">
+    <meta property="og:image" content="https://chatfuel.com/bot_landings/static/images/chatfuel-page-landing-og-image.png">
+    <meta property="og:url" content="https://chatfuel.com/bot/Cozmoai">
+
+    <!-- build:js scripts/main.min.js -->
+    <script type="text/javascript" src="https://chatfuel.com/bot_landings/static/scripts/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="https://chatfuel.com/bot_landings/static/scripts/bootstrap.js"></script>
+    <script type="text/javascript" src="https://chatfuel.com/bot_landings/static/scripts/slick.min.js"></script>
+    <script type="text/javascript" src="https://chatfuel.com/bot_landings/static/scripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://chatfuel.com/bot_landings/static/scripts/mobile-detect.js"></script>
+    <script type="text/javascript" src="https://chatfuel.com/bot_landings/static/scripts/mobile-detect-modernizr.js"></script>
+
+    <script src="https://chatfuel.com/bot_landings/static/scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KW2J56B');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body class="">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KW2J56B"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(function () {
+            document.body.classList.add("body_show");
+        }, 1000)
+    });
+
+    window.onload = function () {
+        document.body.classList.add("body_show");
+    };
+
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: '1678638095724206',
+            xfbml: true,
+            version: 'v2.6'
+        });
+        try {
+            window.app.init();
+        } catch (err) {
+            console.log('err', err);
+            document.addEventListener("DOMContentLoaded", function () {
+                window.app.init();
+            });
+        }
+    };
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = '//connect.facebook.net/en_US/sdk.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div class="container">
+
+  <div class="left-col">
+    <div class="bot-header" style="margin-top: 0px;">
+      <div class="bot-header__avatar" style="background-image: url('https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/16831160_1977641269132318_3239789955091939557_n.png?oh=c866596e3f1e3039fc8732cc0dee949e&oe=5AFB2D07')"></div>
+    </div>
+    <div class="bot-info-container">
+      <h1 class="bot-title">Cozmo Flood</h1>
+      <div class="bot-description">flood alert and weather forecast service. With a touch of humor from a weather owl.</div>
+    </div>
+   
+  </div>
+
+  <div class="iphone">
+    <div class="iphone__body-overlay">
+      <div class="iphone__body"></div>
+    </div>
+    <div class="phone-display">
+      <div class="display-content">
+
+        <div class="display-bot-header clearfix">
+          <div class="display-bot-header__avatar" style="background-image: url('https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/16831160_1977641269132318_3239789955091939557_n.png?oh=c866596e3f1e3039fc8732cc0dee949e&oe=5AFB2D07'); "></div>
+
+          <div class="display-bot-header__info">
+            <div class="display-bot-header__title">Cozmo Flood</div>
+            <div class="display-bot-header__likes"></div>
+            <div class="display-bot-header__description">Community</div>
+          </div>
+        </div>
+
+        <div class="frames">
+          <div class="frame-container">
+            <div class="bot-avatar-picture" style="background-image: url('https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/16831160_1977641269132318_3239789955091939557_n.png?oh=c866596e3f1e3039fc8732cc0dee949e&oe=5AFB2D07'); "></div>
+            <div class="plugins-container">
+<div class="plugin text-plugin clearfix">
+    <div class="plugin__text-bubble">
+        <span class="plugin__text">
+        Hi, Jessie! My name is Cozmo, I’m your assistant for flood alerts in Scotland.
+        </span>
+    </div>
+</div>
+<div class="plugin text-plugin clearfix">
+    <div class="plugin__text-bubble">
+        <span class="plugin__text">
+        I can also tell you the weather forecast, Just ask.
+        </span>
+    </div>
+</div>
+<!-- TODO: bot action -->
+<!-- TODO: bot action -->
+<div class="plugin text-template-plugin clearfix">
+    <div class="plugin__text-bubble">
+        <span class="plugin__text">
+        If you would like to subscribe to the latest Flood Alerts Click ok below. No spam sandwiches I promise! <br><br>Or if you would like to see the menu just click &quot;menu&quot;.
+        </span>
+    </div>
+<div class="plugin__button">
+    Ok
+</div>
+<div class="plugin__button">
+    Menu
+</div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="phone-footers phone-footers_tall">
+      <div class="fb-button-place fb-button-place_rendered" ng-bind-html="bsc.testPageCode" ng-class="{'fb-button-place--hide': bsc.link, 'loaded' : bsc.fbButtonLoadedEmulate}" fb-test-bot-btn-click="" link="bsc.link">
+        <div class='fb-send-to-messenger' id='fb-send-to-messenger' messenger_app_id='1678638095724206' page_id='1977538235809288' data-ref='b64:Q0ZMOg==' color='blue' size='xlarge'></div>
+      </div>
+      <div class="open-in-messenger" style="position: relative;">
+        <a class="link" href="https://m.me/1977538235809288" target="_blank">view on messenger.com</a>
+      </div>
+      <div class="phone-footers__description">
+        This is just a preview. To see the full functionality just start a chat with the bot.
+      </div>
+      <div class="powered-by powered-by_mobile">Powered by <a href="https://chatfuel.com/?source=bot_landing_page&page_id=1977538235809288">Chatfuel</a></div>
+      <div class="phone-footers__close-button"></div>
+    </div>
+  </div>
+
+
+  <div class="right-col">
+    <div class="fb-button-box" style="position: relative;">
+      <div class="fb-button-place fb-button-place_rendered" ng-bind-html="bsc.testPageCode" ng-class="{'fb-button-place--hide': bsc.link, 'loaded' : bsc.fbButtonLoadedEmulate}" fb-test-bot-btn-click="" link="bsc.link">
+        <div class='fb-send-to-messenger' id='fb-send-to-messenger' messenger_app_id='1678638095724206' page_id='1977538235809288' data-ref='b64:Q0ZMOg==' color='blue' size='xlarge'></div>
+      </div>
+      <div class="open-in-messenger">
+        <a class="link" href="https://m.me/1977538235809288" target="_blank">view on messenger.com</a>
+      </div>
+    </div>
+    <span class="fb-button-box-descript">Just start a chat in Facebook Messenger</span>
+  </div>
+<script>      window.fbMessengerPlugins = window.fbMessengerPlugins || {        init: function () {          FB.init({            appId            : '1678638095724206',            autoLogAppEvents : true,            xfbml            : true,            version          : 'v2.10'          });        }, callable: []      };      window.fbAsyncInit = window.fbAsyncInit || function () {        window.fbMessengerPlugins.callable.forEach(function (item) { item(); });        window.fbMessengerPlugins.init();      };      setTimeout(function () {        (function (d, s, id) {          var js, fjs = d.getElementsByTagName(s)[0];          if (d.getElementById(id)) { return; }          js = d.createElement(s);          js.id = id;          js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";          fjs.parentNode.insertBefore(js, fjs);        }(document, 'script', 'facebook-jssdk'));      }, 0);      </script>            <div        class="fb-customerchat"        page_id="1977538235809288"        ref="">      </div>    
+</div>
+</body>
+</html>
